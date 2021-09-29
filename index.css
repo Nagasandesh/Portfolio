@@ -1,0 +1,136 @@
+:root{
+    /* --primary-color:#7C3AED; */
+    /* #d9dd22 #6B7286*/
+    --primary-color:#f1f521;
+    --dark-gray:#666;
+    --off-white:#F3F4F6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: #666;
+    /* color: rgb(165, 114, 247); */
+    height: 80px;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-brand{
+    padding-left: 10px;
+}
+.navigation a{
+    color: #666;
+}
+
+.navigation ul{
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+}
+.navigation li{
+    padding: 1rem 0.5rem;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.hero{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img{
+    max-width: 350px;
+    margin: auto;
+}
+
+.hero-heading{
+    max-width: 350px;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 1rem;
+    color:var(--dark-gray);
+}
+
+.hero-inverted{
+    padding-left: 10px;
+    color: var(--primary-color);
+}
+.container{
+    padding:0 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+
+.technologies{
+    display: flex;
+    justify-content: space-between;
+}
+.t1{
+    padding: 0 1rem;
+}
+
+.link{
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: #666;
+    /* color: rgb(165, 114, 247); */
+}
+.secondary-link{
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    color: #666;
+    /* color: rgb(26, 241, 26); */
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.inline-list>li{
+    display: inline;
+    padding: 0 1rem;
+}
+
+
+
+.section{
+    padding:2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.section1{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #666;
+    border-top-right-radius: 1rem; 
+}
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer a{
+    color: #666;
+}
